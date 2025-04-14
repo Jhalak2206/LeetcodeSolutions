@@ -1,0 +1,13 @@
+Concept:
+
+A prefix sum array is a data structure where each element at index i is the sum of all elements in the original array up to index i.  Given an array arr, its prefix sum array prefixSum is calculated as:
+
+prefixSum[i] = arr[0] + arr[1] + ... + arr[i]
+
+Applications:
+
+Range Sum Queries: Efficiently calculate the sum of elements within a given range in an array.
+
+Finding Equilibrium Index: Determine if there's an index in an array where the sum of elements to the left equals the sum of elements to the right.
+
+Solving Array Problems: Simplifies many array-related problems, reducing time complexity.

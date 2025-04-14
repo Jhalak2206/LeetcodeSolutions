@@ -1,0 +1,13 @@
+The sliding window technique is a method for efficiently solving problems that involve finding a contiguous subarray, substring, or a window within a larger data set.  Instead of using nested loops to examine all possible subarrays or substrings, it reduces the time complexity by maintaining a "window" of elements and sliding it through the data.
+
+Use in String Problems:
+
+Finding the longest substring without repeating characters.
+
+Finding the maximum sum of a subarray of size K.
+
+String matching: Finding occurrences of a pattern in a text.
+
+Counting occurrences of a substring with specific properties.
+
+Finding minimum window substring.

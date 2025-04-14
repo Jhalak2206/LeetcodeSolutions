@@ -1,0 +1,31 @@
+A linked list is a linear data structure where elements are not stored in contiguous memory locations.  Each element, called a node, contains two parts:
+
+Data: The value or information stored in the node.
+
+Pointer (Next): A reference (or link) to the next node in the sequence.  The last node's pointer is typically null.
+
+Types of Linked Lists:
+
+Singly Linked List: Nodes have a pointer only to the next node.
+
+Doubly Linked List: Nodes have pointers to both the next and previous nodes.
+
+Circular Linked List: The last node's pointer points back to the first node, forming a loop.
+
+Applications in Algorithm Design:
+
+Dynamic Memory Allocation: Linked lists can grow or shrink dynamically, allocating memory only when needed.
+
+Implementing Abstract Data Types: Linked lists are used to implement stacks, queues, and hash tables.
+
+Representing Polynomials: Each node can store a coefficient and exponent, making it efficient to perform polynomial operations.
+
+Memory Management: Operating systems use linked lists to manage free and allocated memory blocks.
+
+Symbol Tables: Compilers use linked lists to store symbols and their attributes.
+
+Graph Representations: Linked lists can represent the adjacency list representation of a graph.
+
+Undo/Redo Functionality: Doubly linked lists can efficiently implement undo/redo operations in text editors or other applications.
+
+Music Playlists: Linked lists can be used to create circular playlists where you can go to the next or previous song.
